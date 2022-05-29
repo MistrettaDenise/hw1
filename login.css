@@ -1,0 +1,109 @@
+#colore {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+    text-align: center;
+}
+
+#errore {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+    margin-top: -30px;
+    text-align: center;
+}
+
+input,select {
+    width: 177px;
+    height: 21px;
+}
+
+section,#sezione {
+    display: flex;
+    justify-content: center;
+}
+
+#Contorno {
+    border: 3px solid black;
+}
+
+#Login p {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#Login h1{
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(15, 2, 88);
+}
+
+#Login {
+    margin-top: 50px;
+}
+
+#flex_row, .flex_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;  
+    height: 100px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#richiesta {
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+#richiesta:hover {
+    cursor: pointer;
+    color:rgb(80, 79, 79);
+}
+
+.signup a {
+    color:rgb(42, 119, 181);
+    margin: 0;
+    cursor: pointer;
+    font-family: Cambria, Cochin, serif;
+}
+
+#flex_row p, .flex_row p {
+    width: 200px;
+}
+
+#flex_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+#flex_column div {
+    margin:0;
+}
+
+button {
+    border-radius: 10px 10px 10px;
+    font-size: 1.4rem;
+    background-color: rgb(104, 152, 206);
+    color: black;
+}
+
+#buttonDiv {
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(104, 152, 206);
+    cursor: pointer;
+    color: white;
+}
